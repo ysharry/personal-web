@@ -1,0 +1,149 @@
+.nav {
+  background-color: #151515;
+  padding:6px 0px;
+}
+#phone{
+  background: url('resources/phone.png') no-repeat 55px 1px;
+  background-size: 16px 16px;
+}
+#email{
+  background: url('resources/email.png') no-repeat 47px 1px;
+  background-size: 22px 22px;
+}
+.line {
+  background-color: #252525;
+  height:3px;
+}
+.nav .container{
+  padding-top: 14px;
+  padding-bottom: 5px;
+  padding-left: 0px
+}
+
+.nav a {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  
+}
+.nav .left{
+  float:left;
+}
+
+.nav li {
+  padding: 0px 12px;
+  display: inline;
+}
+
+.number {
+  display:none; 
+  position: absolute;
+  padding: 7px 7px 0px 7px;
+  left:65%;
+  top:65px;
+  background-color: rgba(0,0,0,0.4);
+  font-size: 13px;
+}
+.number p{
+  color:white;
+}
+.email{
+  display:none;
+  padding: 7px 7px 0px 7px;
+  position: absolute;
+  left:71%;
+  top:65px;
+  background-color: rgba(0,0,0,0.4);
+  font-size: 13px;
+}
+.email p{
+  color:white;
+}
+
+
+.jumbotron {
+  background:url('resources/966492.jpg');
+  height: 580px;
+  background-repeat: no-repeat;
+  background-position: 0px -25px; 
+  background-size: 100% 650px;
+}
+
+.jumbotron .container {
+  padding-bottom: 20px;
+  width: 45%;
+  position: absolute;
+  left: 60px;
+  top:200px;
+  background-color: rgba(255,255,255,0.1);
+
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+.jumbotron a{
+  font-size: 20px;
+}
+
+.neighborhood-guides{
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.learn-more {
+  background-color: #2B5464;
+  color:#ffffff;
+  border-top: 6px solid #00AFF0;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color:#B0C5D1;
+}
+
+.learn-more a {
+  color: #dddddd;
+}
+
+.social div{
+  width:35px;
+  height:35px;
+  background: url('resources/social-icons.png') no-repeat 0px 0px;
+  background-size: 600px 412.5px;
+  display:inline-block;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.social a{
+  background-color:rgba(70,70,70,0.2);
+  width: 35px;
+  height:35px;
+  position: absolute;
+  display:none;
+}
+
+
+div.facebook{
+  background-position: -218px -154px;
+}
+div.linkedin{
+  background-position: -401px -221px;
+}
+div.skype{
+  background-position: -402px -285px;
+}
+div.google{
+  background-position: -160px -222px
+}

@@ -1,0 +1,81 @@
+body {
+	padding-top:50px;
+	padding-bottom: 20px;
+	background: white ;
+	background-size: 100% auto;
+	background-position:0px -50px;
+}
+
+.navbar {
+	padding-left: 15px;
+	padding-right: 15px;
+	/*filter:alpha(opacity=80);
+	-moz-opacity:0.8;*/
+	/*opacity: 0.9;*/
+	/*background: rgba(50,50,50,0.8);*/
+}
+
+
+#player{
+	width:376px;
+	height:350px;
+	margin-left: 20px;
+}
+
+.audio-control{
+	display: inline;
+}
+
+.btn-default{
+	height:30px;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #444;
+	border-color: #555;
+	color:white;
+	padding-bottom: 5px;
+	padding-top: 3px
+}
+
+.btn-default:hover{
+	background-color: #555;
+	border-color: #555;
+	color:white;
+}
+
+.jumbotron{
+	padding-bottom: 60px;
+}
+
+.song-list{
+	position: relative;
+	top:10px;
+}
+
+.info{
+	padding: 8px;
+	padding-left: 14px;
+}
+
+.list-group-item{
+	background-color: rgba(0,0,0,0.1);
+	font-weight: bold;
+	border-color: white;
+}
+.info{
+	background-color: rgba(0,0,0,0.15);
+	font-weight: bold;
+	border-color: white;
+}
+
+#info-text{
+	position: relative;
+	display: inline;
+	top:15px;
+	left:5px;
+	font-size: 15px;
+}
+
+
+
+

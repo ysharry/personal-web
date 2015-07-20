@@ -1,0 +1,156 @@
+body {
+  background-color: #f7f7f7;
+}
+#head {
+  background: url("resources/357483.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 620px;
+}
+
+.nav {
+  background-color: rgba(30,30,30,0.2);
+  padding:6px 0px;
+  padding-top: 12px;
+  height:75px;
+}
+#phone{
+  background: url('resources/phone.png') no-repeat 55px 1px;
+  background-size: 16px 16px;
+}
+#email{
+  background: url('resources/email.png') no-repeat 47px 1px;
+  background-size: 22px 22px;
+}
+.line {
+  background-color: #252525;
+  height:3px;
+}
+.nav .container{
+  padding-top: 14px;
+  padding-bottom: 5px;
+  padding-left: 0px
+}
+
+.nav a {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  
+}
+.nav .left{
+  float:left;
+}
+
+.nav li {
+  padding: 0px 12px;
+  display: inline;
+}
+
+.number {
+  display:none; 
+  position: absolute;
+  padding: 12px 7px 0px 7px;
+  left:65%;
+  top:80px;
+  background-color: rgba(30,30,30,0.4);
+  font-size: 13px;
+}
+.number p{
+  color:white;
+}
+.email{
+  display:none;
+  padding: 7px 7px 0px 7px;
+  position: absolute;
+  left:71%;
+  top:80px;
+  background-color: rgba(30,30,30,0.4);
+  font-size: 13px;
+}
+.email p{
+  color:white;
+}
+
+
+.jumbotron {
+  height: 520px;
+  background: rgba(0,0,0,0);
+}
+
+.jumbotron .container {
+  width: 45%;
+  position: absolute;
+  left: 60px;
+  top:190px;
+  background-color: rgba(15,15,15,0);
+
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  text-shadow:#404040 2px 2px 2px;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+  text-shadow:#404040 2px 2px 5px;
+}
+.jumbotron a{
+  font-size: 20px;
+}
+
+.neighborhood-guides{
+    background-color: #f7f7f7;
+}
+
+.learn-more {
+  background-color: #404040;
+  color:#ffffff;
+}
+
+.learn-more h3 {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color:#b7b7b7;
+}
+
+.learn-more a {
+  color: #FF7C00;
+}
+
+.social div{
+  width:35px;
+  height:35px;
+  background: url('resources/social-icons.png') no-repeat 0px 0px;
+  background-size: 600px 412.5px;
+  display:inline-block;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.social a{
+  background-color:rgba(70,70,70,0.2);
+  width: 35px;
+  height:35px;
+  position: absolute;
+  display:none;
+}
+
+
+div.facebook{
+  background-position: -218px -154px;
+}
+div.linkedin{
+  background-position: -401px -221px;
+}
+div.skype{
+  background-position: -402px -285px;
+}
+div.google{
+  background-position: -160px -222px
+}
