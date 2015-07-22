@@ -64,19 +64,15 @@
 					<div class="pull-right">周杰伦</div>	
 				</a>
 				<a id="li3" class="list-group-item">
-					4&nbsp;&nbsp;老人与海
-					<div class="pull-right">海明威</div>	
+					4&nbsp;&nbsp;匆匆那年
+					<div class="pull-right">王菲</div>	
 				</a>
 				<a id="li4" class="list-group-item">
 					5&nbsp;&nbsp;青花瓷
 					<div class="pull-right">周杰伦</div>	
 				</a>
 			</div>
-			
 		</div>
-
-		
-
 
 		<div>
 			<ul>
@@ -93,6 +89,6 @@
 		<script src="WebMaster/jquery-1.11.3.min.js"></script>
 		<script src="WebMaster/bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
 		<script src="audio.js"></script>
-		
+		<script src="main.js"></script>
 	</body>
 </html>

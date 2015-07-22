@@ -1,7 +1,7 @@
 var audioReady = function(){
 	var music_list = ["jiangnan","luzhouyue","daoxiang",
-					  "laorenyuhai","qinghuaci"];
-	var music_info = ["江南 -- 林俊杰","庐州月 -- 许嵩","稻香 -- 周杰伦","老人与海 -- 海明威","青花瓷 -- 周杰伦"]
+					  "congcongnanian","qinghuaci"];
+	var music_info = ["江南 -- 林俊杰","庐州月 -- 许嵩","稻香 -- 周杰伦","匆匆那年 -- 王菲","青花瓷 -- 周杰伦"]
 	var mus_path = "music/";
 	var pic_path = "pic/";
 	var music_num = music_list.length;
@@ -72,6 +72,5 @@ var audioReady = function(){
 
 }
 
-$(document).ready(audioReady);
 
 
