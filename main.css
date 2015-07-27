@@ -5,6 +5,9 @@ body {
 	background-size: 100% auto;
 	background-position:0px -50px;
 }
+audio {
+	width:275px;
+}
 
 .navbar {
 	padding-left: 15px;
@@ -19,14 +22,14 @@ body {
 #player{
 	width:376px;
 	height:350px;
-	margin-left: 20px;
+	/*margin-top: 20px;*/
 }
 
 .audio-control{
 	display: inline;
 }
 
-.btn-default{
+.my-btn{
 	height:30px;
 	font-size: 13px;
 	font-weight: bold;
@@ -37,7 +40,7 @@ body {
 	padding-top: 3px
 }
 
-.btn-default:hover{
+.my-btn:hover{
 	background-color: #555;
 	border-color: #555;
 	color:white;
@@ -76,6 +79,14 @@ body {
 	font-size: 15px;
 }
 
+.navbar-fixed-top {
+	position: absolute;
+}
+
+.resources a img{
+	width:350px;
+	height:200px;
+}
 
 
 

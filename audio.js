@@ -10,7 +10,7 @@ var audioReady = function(){
 	var info_text = document.getElementById("info-text");
 	var index = 0;
 	audio.src= mus_path+music_list[index]+".mp3";
-	audio.play();
+	//audio.play();
 
 	var changeMusic = function(){
 		audio.src = mus_path+music_list[index]+".mp3";
@@ -71,6 +71,7 @@ var audioReady = function(){
 	});
 
 }
+
 
 
 
