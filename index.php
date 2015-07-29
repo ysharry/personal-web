@@ -9,9 +9,9 @@
 		die("query failed");
 	}
 	if(count($_POST)){
-		$name = $_POST['usr'];
-		$msg = $_POST['pw'];
-		$query = "INSERT INTO message (row,name,msg) VALUE (1,'{$name}','{$msg}')";
+		$usrname = $_POST['usr'];
+		$password = $_POST['pw'];
+		$query = "INSERT INTO localuser (usrname,password,time) VALUE ('$usrname','$password',CURRENT_DATE())";
 		$r2 = mysqli_query($connection,$query);
 		if(!$r2){
 			die("insert failed");
@@ -65,12 +65,7 @@
 					<o>A free and open-source collection of tools for creating websites and web applications. It will ease your development of dynamic websites.</p>
 					<p><a href="http://getbootstrap.com/" target="_blank" class="btn btn-warning">View details</a></p>
 				</div>
-				<div class="col-md-4">
-					<a href="https://www.codecademy.com/learn/" target="_blank"><img src="pic/codecademy1.png" class="img-rounded"></a>
-					<h3>Codecademy</h3>
-					<o>An online interactive platform that offers free coding classes in some of the most popular web programming languages including html, css, php, javascript, etc. </p>
-					<p><a href="https://www.codecademy.com/learn/" target="_blank" class="btn btn-warning">View details</a></p>
-				</div>
+				
 				<div id="player" class="col-md-4">
 
 					<div class="audio-control">
@@ -110,6 +105,12 @@
 						</a>
 					</div>
 				</div>
+				<div class="col-md-4">
+					<a href="https://www.codecademy.com/learn/" target="_blank"><img src="pic/codecademy1.png" class="img-rounded"></a>
+					<h3>Codecademy</h3>
+					<o>An online interactive platform that offers free coding classes in some of the most popular web programming languages including html, css, php, javascript, etc. </p>
+					<p><a href="https://www.codecademy.com/learn/" target="_blank" class="btn btn-warning">View details</a></p>
+				</div>
 			</div>
 		</div>
 
@@ -121,13 +122,13 @@
 				<li><a href="WebMaster/newsreader">Newsreader</a></li>
 			</ul>
 		</div>
-		<p>
+		<pre>
 			<?php
 				while($row = mysqli_fetch_assoc($result)){
-					var_dump($row);
-				}
+					print_r($row);
+				}		
 			?>
-		</p>
+		</pre>
 		
 		
 		
